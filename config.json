@@ -1,0 +1,12 @@
+{
+  "useProxy": false,
+  "vpnEnabled": true, 
+  "vpnService": "NordVPN", 
+  "connectionCheckUrl": "https://api.my-ip.io/ip.json", 
+  "retryOnFail": true,
+  "maxRetries": 3,
+  "delayBetweenRetries": 5000,
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+  }
+}
