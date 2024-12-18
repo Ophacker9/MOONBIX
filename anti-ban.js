@@ -40,7 +40,7 @@ async function safeRequest(url) {
 
     // Random delay between 3-8 seconds
     const delay = Math.floor(Math.random() * (8000 - 3000 + 1)) + 3000;
-    console.log(`Waiting ${delay / 1000} seconds...`);
+    console.log(`Waiting ${delay / 500} seconds...`);
     await sleep(delay);
   }
 })();
