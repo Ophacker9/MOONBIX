@@ -1,10 +1,10 @@
-const fs = require("fs");
+      const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
 const axios = require("axios");
 const readline = require("readline");
 const { HttpsProxyAgent } = require("https-proxy-agent");
-const logger = require("./config/logger");
+const logger = require("./config/logger"); // Import the logger
 const printBanner = require("./config/banner");
 const prompt = require("prompt-sync")();
 
@@ -16,6 +16,7 @@ const clearLine = () => {
 };
 
 printBanner();
+logger.info("Application started successfully!");
 
 // Binance Class
 class Binance {
